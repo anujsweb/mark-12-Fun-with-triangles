@@ -10,7 +10,7 @@ function calculateArea(a, b) {
 
 function showArea() {
     const area = calculateArea(Number(sides[0].value), Number(sides[1].value));
-    outputEl.innerText = "Area of triangle is: "+ area;
+    outputEl.innerText = "Area of triangle is: " + area;
 }
 
 areaBtn.addEventListener("click", showArea);

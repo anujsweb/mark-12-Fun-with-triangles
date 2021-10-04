@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-    text-align: center;
-    background-color: burlywood;
+    margin: auto;
+    background-color: rgb(252, 214, 165);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 33, 116);
 }
 
 button {
     margin: 1rem;
 }
 
+input,
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+#is-triangle-btn,
+#submit-answer-btn,
+#hypotenuse-btn,
+#area-btn {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: rgb(175, 6, 6);
+}
+
+label {
+    text-align: center;
+}
